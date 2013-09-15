@@ -14,8 +14,10 @@ SOPHIA = bench_sophia
 SOPHIA_CFLAGS = -I. -Isophia/db -Wall -O2 -DNDEBUG
 SOPHIA_LFLAGS = -Lsophia/db -lsophia -pthread
 
-all: ${LEVELDB} ${HYPERLEVELDB} ${SOPHIA}
-
+all: build ${LEVELDB} ${SOPHIA}
+build:
+	@(cd sophia; make)
+	@(cd leveldb; make)
 ${LEVELDB}: clean
 	$(CC) ${LEVELDB_CFLAGS} ${LEVELDB}.c $(LEVELDB_LFLAGS) -o ${LEVELDB}
 ${HYPERLEVELDB}: clean

@@ -176,10 +176,6 @@ main(int argc, char * argv[])
 	if (keytraversed > 0 && keytraversed != n)
 		printf("(%d keys traversed)\n", keytraversed);
 
-	extern int gaps;
-	extern int total;
-	printf("(gaps: %d, total: %d)\n", gaps, total);
-
 	sp_destroy(db);
 	sp_destroy(env);
 	return rc;
