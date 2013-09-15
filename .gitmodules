@@ -1,9 +1,9 @@
+[submodule "sophia"]
+	path = sophia
+	url = git://github.com/pmwkaa/sophia.git
+[submodule "hyperleveldb"]
+	path = hyperleveldb
+	url = git://github.com/rescrv/HyperLevelDB
 [submodule "leveldb"]
 	path = leveldb
 	url = https://code.google.com/p/leveldb/
-[submodule "hyperleveldb"]
-	path = hyperleveldb
-	url = https://github.com/rescrv/HyperLevelDB
-[submodule "sophia"]
-	path = sophia
-	url = https://github.com/pmwkaa/sophia.git
