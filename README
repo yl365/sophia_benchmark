@@ -1,0 +1,8 @@
+
+sophia database benchmarking.
+
+http://sphia.org
+
+To download database repositories for benchmarking:
+
+git clone --recursive git://github.com/pmwkaa/sophia_benchmark.git

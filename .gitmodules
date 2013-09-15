@@ -1,0 +1,9 @@
+[submodule "leveldb"]
+	path = leveldb
+	url = https://code.google.com/p/leveldb/
+[submodule "hyperleveldb"]
+	path = hyperleveldb
+	url = https://github.com/rescrv/HyperLevelDB
+[submodule "sophia"]
+	path = sophia
+	url = https://github.com/pmwkaa/sophia.git
